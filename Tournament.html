@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusArena | Tournaments</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="circuit-overlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">NexusArena</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tournament.html" class="active">Tournaments</a>
+      <a href="#">Leaderboards</a>
+      <a href="#">Match History</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="auth-buttons">
+      <button class="btn btn-login">Login</button>
+      <button class="btn btn-signup">Sign Up</button>
+    </div>
+  </nav>
+
+  <!-- Tournament Banner -->
+  <section class="tournament-banner hero">
+    <div class="hero-content">
+      <h1>Upcoming & Ongoing Tournaments</h1>
+      <p>Browse, register, and compete in the hottest esports tournaments of the season.</p>
+      <button class="btn btn-cta btn-primary glow-border">Register Your Team</button>
+    </div>
+  </section>
+
+  <!-- Filter Tabs -->
+  <section class="filters">
+    <div class="section-header">
+      <h2>Browse Tournaments</h2>
+    </div>
+    <div class="filter-tabs">
+      <button class="btn btn-secondary">Upcoming</button>
+      <button class="btn btn-secondary">Live</button>
+      <button class="btn btn-secondary">Past</button>
+    </div>
+  </section>
+
+  <!-- Tournament Listings -->
+  <section class="featured">
+    <div class="tournaments-grid">
+      <div class="tournament-card glass-panel">
+        <div class="tournament-img" style="background-image:url('https://via.placeholder.com/600x300?text=Apex+Legends');"></div>
+        <div class="tournament-details">
+          <h3>Apex Legends Open Cup</h3>
+          <div class="tournament-meta">
+            <span>32 Teams</span>
+            <span>Sept 20, 2025</span>
+          </div>
+          <p>Compete in this adrenaline-filled Apex tournament and prove your squad is the best.</p>
+          <div class="tournament-prize">$25,000 Prize Pool</div>
+          <span class="tournament-status status-open">Registration Open</span>
+        </div>
+      </div>
+
+      <div class="tournament-card glass-panel">
+        <div class="tournament-img" style="background-image:url('https://via.placeholder.com/600x300?text=Valorant');"></div>
+        <div class="tournament-details">
+          <h3>Valorant Clash</h3>
+          <div class="tournament-meta">
+            <span>64 Teams</span>
+            <span>Live Now</span>
+          </div>
+          <p>Join the fight in Valorant’s tactical showdown and claim the top spot.</p>
+          <div class="tournament-prize">$40,000 Prize Pool</div>
+          <span class="tournament-status status-live">Live Now</span>
+        </div>
+      </div>
+
+      <div class="tournament-card glass-panel">
+        <div class="tournament-img" style="background-image:url('https://via.placeholder.com/600x300?text=LoL');"></div>
+        <div class="tournament-details">
+          <h3>League of Legends Summer Cup</h3>
+          <div class="tournament-meta">
+            <span>16 Teams</span>
+            <span>Finished</span>
+          </div>
+          <p>The summer showdown has ended. Check results and stats in the archives.</p>
+          <div class="tournament-prize">$15,000 Prize Pool</div>
+          <span class="tournament-status status-closed">Completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bracket Preview -->
+  <section class="live-events">
+    <div class="section-header">
+      <h2>Bracket Preview</h2>
+      <p>See the current progress of ongoing tournaments</p>
+    </div>
+    <div class="events-grid">
+      <div class="event-card glass-panel">
+        <div class="event-bg" style="background-image:url('https://via.placeholder.com/600x300?text=LoL+Bracket');"></div>
+        <div class="event-content">
+          <h3 class="event-title">LoL Summer Cup</h3>
+          <div class="event-meta">
+            <span>Quarter Finals</span>
+          </div>
+          <button class="btn btn-secondary">View Bracket</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-about">
+        <div class="footer-logo">NexusArena</div>
+        <p>The premier platform for e-sports tournaments, player statistics, and competitive gaming.</p>
+        <div class="social-icons">
+          <div class="social-icon">T</div>
+          <div class="social-icon">D</div>
+          <div class="social-icon">I</div>
+          <div class="social-icon">Y</div>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tournament.html">Tournaments</a></li>
+          <li><a href="#">Leaderboards</a></li>
+          <li><a href="#">Match History</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Community Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to our newsletter for the latest tournaments and gaming news.</p>
+        <form>
+          <input type="email" placeholder="Enter your email">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 NexusArena. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
